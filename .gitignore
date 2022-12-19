@@ -1,0 +1,5 @@
+# Project templates shouldn't come with old dependencies
+templates/**/flake.lock
+
+# Computed derivations
+result
