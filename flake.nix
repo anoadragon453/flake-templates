@@ -12,7 +12,7 @@
   }:
     {
       templates = {
-        meta = {
+        python = {
           path = ./templates/dev/python;
           description = "Simple python project";
         };
