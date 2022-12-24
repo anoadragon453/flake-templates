@@ -19,7 +19,12 @@
 
         python = {
           path = ./templates/dev/python;
-          description = "Simple python project";
+          description = "Simple Python project";
+        };
+
+        rust = {
+          path = ./templates/dev/rust;
+          description = "Simple Rust project";
         };
       };
     }
