@@ -14,7 +14,6 @@
     in {
       devShells.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-	  jetbrains.pycharm-community
           poetry
         ];
       };
