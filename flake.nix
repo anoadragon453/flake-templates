@@ -12,6 +12,11 @@
   }:
     {
       templates = {
+        go = {
+          path = ./templates/dev/go;
+          description = "Simple Golang project";
+        };
+
         python = {
           path = ./templates/dev/python;
           description = "Simple python project";
